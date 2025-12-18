@@ -13,8 +13,8 @@ CREATE TABLE movies (
 CREATE TABLE ratings (
     user_id INT,
     movie_id INT,
-    rating DECIMAL(2,1),
+    rating DECIMAL(2, 1),
     timestamp BIGINT,
     PRIMARY KEY (user_id, movie_id),
-    FOREIGN KEY (movie_id) REFERENCES movies(movie_id)
+    FOREIGN KEY (movie_id) REFERENCES movies (movie_id)
 );

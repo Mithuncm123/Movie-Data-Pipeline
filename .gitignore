@@ -1,14 +1,15 @@
 # Ignore virtual environment
 .venu/
-venv/
 
 # Ignore Python cache
 __pycache__/
 
 # Ignore database / API config (credentials)
 db_config.py
-api_config.py
 
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+# Ignore data files
+data/
