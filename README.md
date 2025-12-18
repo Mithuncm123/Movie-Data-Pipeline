@@ -19,7 +19,7 @@ Data Sources:
 1.CSV Files
 1.1. movies.csv – contains movie details such as title and genres
 
-    1.2. ratings.csv – contains user ratings for movies
+1.2. ratings.csv – contains user ratings for movies
 
 2.OMDb API
 2.1.Used to enrich movie data with additional details such as:
